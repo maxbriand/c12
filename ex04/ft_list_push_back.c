@@ -1,5 +1,6 @@
 #include "ft_list.h"
 
+// Add a node at the end of the linked list
 void	ft_list_push_back(t_list **begin_list, void *data)
 {
 	t_list	*node4;
@@ -13,7 +14,7 @@ void	ft_list_push_back(t_list **begin_list, void *data)
 	deref_begin_list->next = node4;
 }
 
-/* // Add a node at the end of the linked list
+/* 
 int	main(void)
 {
 	t_list	*node1;
